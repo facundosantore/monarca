@@ -235,8 +235,8 @@ main section form div{
 
     header nav ul{
         display: flex;
-
         gap: 25px;
+        text-align: center;
     }
     
 .contenedor{
