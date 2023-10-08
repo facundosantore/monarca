@@ -1,0 +1,316 @@
+html{
+    font-size: 62,5%; /* transforma el rem de 16px a 10px*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: #FAF7CD;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 60px;
+    flex-direction: column;
+
+}
+header img{
+    width: 200px;
+    height: 80px;
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #FAF7CD;
+    padding: 10px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,auto);
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 5px;
+    grid-template-areas:
+    "aceroblanco"
+    "aceroquirurgico"
+    "plata"
+    "oro" ;
+}
+
+.aceroblanco{
+    position: relative;
+    grid-area: aceroblanco;
+}
+
+.aceroquirurgico{
+    position: relative;
+    grid-area: aceroquirurgico;
+}
+
+.plata{
+    position: relative;
+    grid-area: plata;
+}
+
+.oro{
+    position: relative;
+    grid-area: oro;
+}
+.contenedor div{
+    height: auto;
+}
+.contenedor div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor div p{
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    background-position: center;
+    font-size: 30px;
+    font-style: initial;
+    -webkit-text-stroke: 2px black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.contenedor2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(6,auto);
+    grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6";
+    margin: 1rem 3rem 3rem 3rem;
+    row-gap: 20px;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.card6{
+    grid-area: card6;
+}
+.contenedor2 article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border: outset 1px black;
+    height: auto;
+    
+}
+.contenedor2 article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor2 article p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 5% black;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    color: black;
+font-size: 30px;
+font-style: initial;
+grid-area: titulo;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    color: black;
+font-size: 30px;
+font-style: initial;
+}
+footer{
+background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main section form div{
+    margin: 5px;
+    padding: 5px;
+}
+.mobile{
+    width: 100%;
+    height: 100%;
+}
+.destok{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 30px;
+    }
+
+    header nav ul{
+        display: flex;
+
+        gap: 25px;
+    }
+    
+.contenedor{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas:
+    "plata plata aceroquirurgico aceroquirurgico"
+    "plata plata aceroblanco oro";
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.contenedor2{
+    grid-template-columns:repeat(2, auto);
+    grid-template-rows: repeat(3,auto) ;
+    grid-template-areas:
+    "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    ; }
+.contenedor2 article{
+    height: 500px;
+    width: 300px;
+}
+.contenedor2 article img{
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+.destok{
+    display: flex;
+}
+
+}
+@media screen and (min-width: 1024px){
+    header{
+    padding: 100px;
+    }
+    header img{
+        width: 300px;
+        height: 180px;
+    }
+    
+    
+    header nav ul li a{
+        font-size: 30px;
+        text-decoration: none;
+    }
+    
+    
+    .contenedor{
+    margin: 2rem 8rem 8rem 8rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30vh 30vh 40vh;
+    grid-template-areas:
+    "plata plata oro oro"
+    "plata plata oro oro"
+    " aceroquirurgico aceroquirurgico aceroblanco aceroblanco";
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.contenedor2{
+grid-template-columns:repeat(2, auto);
+    grid-template-rows: repeat(2,auto) ;
+    grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6"
+    
+    ;}
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
