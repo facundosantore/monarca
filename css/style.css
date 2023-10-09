@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 60px;
+    padding: 20px;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -158,11 +158,10 @@ main{
 
 h2{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: black;
-font-size: 30px;
-font-style: initial;
-grid-area: titulo;
+    font-size: 40px;
+    font-style: initial;
 }
 h3{
     text-align: center;
@@ -179,10 +178,7 @@ background-color: antiquewhite;
     align-items: center;
     padding: 20px;
 }
-footer iframe{
-    width: 100%;
-    height: 100%;
-}
+
 
 /* MAIN CONTACTO*/
 .formulario{
@@ -193,8 +189,8 @@ footer iframe{
     gap: 10px 10px;
 }
 main section form div{
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 .mobile{
     width: 100%;
@@ -202,6 +198,16 @@ main section form div{
 }
 .destok{
     display: none;
+}
+/* footer contacto */
+footer iframe{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.telefono{
+    display: flex;
+    gap: 10px;
 }
 /* main productos */
 .submenu{
@@ -215,16 +221,34 @@ main section form div{
     gap: 20px;
 }
 /*Main quienes*/
+.info2{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main cuidado */
+
+.articulo-cuidado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-fluid{
+    width: 300px;
+    height: 450px;
+}
 .info{
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-
 @media screen and (min-width: 768px){
+    /* header */
     header{
         display: flex;
         flex-direction: row;
@@ -239,15 +263,7 @@ main section form div{
         text-align: center;
     }
     
-.contenedor{
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 50vh);
-    grid-template-areas:
-    "plata plata aceroquirurgico aceroquirurgico"
-    "plata plata aceroblanco oro";
-    column-gap: 1px;
-    row-gap: 1px;
-}
+    
 .contenedor2{
     grid-template-columns:repeat(2, auto);
     grid-template-rows: repeat(3,auto) ;
@@ -268,6 +284,42 @@ main section form div{
 .destok{
     display: flex;
 }
+
+/* main productos */
+.contenedor{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas:
+    "plata plata aceroquirurgico aceroquirurgico"
+    "plata plata aceroblanco oro";
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+/* main cuidado */
+
+.articulo-cuidado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.img-fluid{
+    width: 400px;
+    height: 500px;
+}
+.info{
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer contacto */
+footer iframe{
+    width: 400px;
+    height: 400px;
+}
+
 
 }
 @media screen and (min-width: 1024px){
@@ -305,6 +357,26 @@ grid-template-columns:repeat(2, auto);
     "card4 card5 card6"
     
     ;}
+
+
+    /* main cuidado */
+
+    .articulo-cuidado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 50px;
+    }
+    .img-fluid{
+        width: 600px;
+        height: 700px;
+    }
+    .info{
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
     

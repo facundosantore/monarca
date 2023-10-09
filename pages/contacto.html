@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@1,100;1,200;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./../css/style.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <header>
         <img src="./../assets/monarca.png" alt="monarca">
@@ -18,64 +22,82 @@
                     <a href="./../index.html">Inicio</a>
                 </li>
                 <li><a href="./../pages/Productos.html">Productos</a>
-                    </li>
+                </li>
                 <li> <a href="./../pages/Cuidado.html">Cuidado de joyas</a>
                 </li>
                 <li><a href="./../pages/Quienes.html">Quienes somos</a>
-                    </li>
+                </li>
                 <li><a href="./../pages/Contacto.html">Contacto</a>
-                    </li>
+                </li>
             </ul>
-        
+
         </nav>
     </header>
 
     <main>
         <section class="contact">
             <h2>Contacto</h2>
-        <form class="formulario">
-            <div>
+            <form class="formulario">
+                <div>
+
+                    <label for="nombre">Ingrese su nombre</label> <br>
+
+                    <input type="text" name="nombre" id="nombre" placeholder="Facundo Santore">
+
+                </div>
+                <div>
+                    <label for="">Ingrese su email</label> <br>
+                    <br>
+                    <input type="email" placeholder="email@gmail.com" required>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribinos tu consulta..."></textarea>
+                </div>
+                <div>
+                    <p>Elegi tu talle</p>
+
+                    <label for="Talle">Talle 15</label>
+                    <input type="radio" name="talle" value="15">
+                    <label for="Talle">Talle 16</label>
+                    <input type="radio" name="talle" value="16">
+                    <label for="Talle">Talle 17</label>
+                    <input type="radio" name="talle" value="17">
+                </div>
+                <div>
+                    <label for="Talle"></label>
+
+                </div>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
     
-                <label for="nombre">Ingrese su nombre</label> <br>
-                <input type="text" name="nombre" id="nombre" placeholder="Facundo Santore">
-    
-            </div>
-            <div>
-                <label for="">Ingrese su email</label> <br>
-                <input type="email" placeholder="email@gmail.com" required>
-            </div>
-            <div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Escribinos tu consulta..."></textarea>
-            </div>
-            <div>
-                <label for="Talle">Talle 15</label>
-                <input type="radio" name="talle" value="15">
-                <label for="Talle">Talle 16</label>
-                <input type="radio" name="talle" value="16">
-                <label for="Talle">Talle 17</label>
-                <input type="radio" name="talle" value="17">
-            </div>
-            <div>
-                <label for="Talle"></label>
-                
-            </div>
-            <input type="submit">
-            <input type="reset">
-        </form>
-    </section>
     </main>
 
     <footer>
         <div>
             <a href="https://instagram.com/monarca.bijouterie?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
-                <img src="./../assets/instagram-1-svgrepo-com.svg" alt="Logo instagram" width="50" height="50" ></a>
-        
-                <img src="./../assets/whatsapp-svgrepo-com.svg" alt="Logo whatsapp" width="50" height="50">
+                <img src="./../assets/instagram-1-svgrepo-com.svg" alt="Logo instagram" width="50" height="50"></a>
+
+            <img src="./../assets/whatsapp-svgrepo-com.svg" alt="Logo whatsapp" width="50" height="50">
         </div>
-        <p>+54 3412284618</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.0436436164642!2d-60.64326918565734!3d-32.9533106802834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1694013747695!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
-            <h3><p>© Copyright Monarca Bijouterie - 2023</p></h3>
+
+        <div class="telefono"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-telephone" viewBox="0 0 16 16">
+                <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <p>+54 3412284618</p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.0436436164642!2d-60.64326918565734!3d-32.9533106802834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1694013747695!5m2!1ses!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h3>
+            <p>© Copyright Monarca Bijouterie - 2023</p>
+        </h3>
     </footer>
 </body>
+
 </html>
