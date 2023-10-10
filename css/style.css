@@ -167,6 +167,12 @@ main section form div{
     justify-content: center;
     align-items: center;
 }
+.input {
+    font-size: 24px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
 
 /* footer contacto */
 footer iframe{

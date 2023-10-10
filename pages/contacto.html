@@ -37,48 +37,33 @@
     <main>
         <section class="form">
             <h2>Contacto</h2>
-            <!-- <form class="formulario">
-                <div>
 
-                    <label for="nombre">Ingrese su nombre</label> <br>
-
-                    <input type="text" name="nombre" id="nombre" placeholder="Facundo Santore">
-
+            <div class="row mb-3 input">
+                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Nombre">
                 </div>
-                <div>
-                    <label for="">Ingrese su email</label> <br>
-                    <br>
-                    <input type="email" placeholder="email@gmail.com" required>
-                </div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribinos tu consulta..."></textarea>
-                </div>
-                <div>
-                    <p>Elegi tu talle</p>
-
-                    <label for="Talle">Talle 15</label>
-                    <input type="radio" name="talle" value="15">
-                    <label for="Talle">Talle 16</label>
-                    <input type="radio" name="talle" value="16">
-                    <label for="Talle">Talle 17</label>
-                    <input type="radio" name="talle" value="17">
-                </div>
-                <div>
-                    <label for="Talle"></label>
-
-                </div>
-                <input type="submit">
-                <input type="reset">
-            </form> -->
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <br>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="row mb-3 input">
+                <label for="colFormLabel" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="colFormLabel" placeholder="Telefono">
+                </div>
             </div>
+            <div class="row mb-3 input">
+                <label for="colFormLabel" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="form-floating input">
+                <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+            </div>
+
+
         </section>
 
     </main>
