@@ -67,33 +67,13 @@ main{
     position: relative;
     grid-area: oro;
 }
-.contenedor div{
-    height: auto;
-}
-.contenedor div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.contenedor div p{
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    background-position: center;
-    font-size: 30px;
-    font-style: initial;
-    -webkit-text-stroke: 2px black;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-}
 .contenedor2{
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows:repeat(6,auto);
+    grid-template-rows:repeat(6,1fr);
     grid-template-areas:
     "card1"
     "card2"
@@ -181,6 +161,12 @@ main section form div{
     margin: 10px;
     padding: 10px;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* footer contacto */
 footer iframe{
@@ -196,7 +182,7 @@ footer iframe{
 .contenedor{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,auto);
+    grid-template-rows: repeat(4,1fr);
     margin: 1rem 3rem 3rem 3rem;
     gap: 5px;
     grid-template-areas:
@@ -204,6 +190,27 @@ footer iframe{
     "aceroquirurgico"
     "plata"
     "oro" ;
+}
+.contenedor div{
+    height: auto;
+}
+.contenedor div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor div p{
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    background-position: center;
+    font-size: 30px;
+    font-style: initial;
+    -webkit-text-stroke: 2px black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
 }
 .submenu{
     display: flex;
@@ -266,7 +273,7 @@ footer iframe{
     "card1 card2"
     "card3 card4"
     "card5 card6"
-    ; }
+    ;}
 .contenedor2 article{
     height: 500px;
     width: 300px;
@@ -276,9 +283,7 @@ footer iframe{
     width: auto;
     object-fit: cover;
 }
-.destok{
-    display: flex;
-}
+
 
 /* main productos */
 .contenedor{
@@ -330,14 +335,14 @@ footer iframe{
     header nav ul li a{
         font-size: 30px;
         text-decoration: none;
-    }
+    
     
     
 
 }
 .contenedor2{
-grid-template-columns:repeat(2, auto);
-    grid-template-rows: repeat(2,auto) ;
+grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
     grid-template-areas:
     "card1 card2 card3"
     "card4 card5 card6"
@@ -375,4 +380,6 @@ grid-template-columns:repeat(2, auto);
         font-size: 25px;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
+
+}
 }
