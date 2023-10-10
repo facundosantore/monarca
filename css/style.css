@@ -338,16 +338,7 @@ footer iframe{
     }
     
     
-    .contenedor{
-    margin: 2rem 8rem 8rem 8rem;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 30vh 30vh 40vh;
-    grid-template-areas:
-    "plata plata oro oro"
-    "plata plata oro oro"
-    " aceroquirurgico aceroquirurgico aceroblanco aceroblanco";
-    column-gap: 1px;
-    row-gap: 1px;
+
 }
 .contenedor2{
 grid-template-columns:repeat(2, auto);
@@ -359,6 +350,18 @@ grid-template-columns:repeat(2, auto);
     ;}
 
 
+/* main productos */
+    .contenedor{
+    margin: 2rem 8rem 8rem 8rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30vh 30vh 40vh;
+    grid-template-areas:
+    "plata plata oro oro"
+    "plata plata oro oro"
+    " aceroquirurgico aceroquirurgico aceroblanco aceroblanco";
+    column-gap: 1px;
+    row-gap: 1px;
+    }
     /* main cuidado */
 
     .articulo-cuidado{
