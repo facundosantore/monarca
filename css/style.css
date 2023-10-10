@@ -46,18 +46,7 @@ main{
     background-color: #FAF7CD;
     padding: 10px;
 }
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,auto);
-    margin: 1rem 3rem 3rem 3rem;
-    gap: 5px;
-    grid-template-areas:
-    "aceroblanco"
-    "aceroquirurgico"
-    "plata"
-    "oro" ;
-}
+
 
 .aceroblanco{
     position: relative;
@@ -192,13 +181,7 @@ main section form div{
     margin: 10px;
     padding: 10px;
 }
-.mobile{
-    width: 100%;
-    height: 100%;
-}
-.destok{
-    display: none;
-}
+
 /* footer contacto */
 footer iframe{
     width: 100%;
@@ -210,6 +193,18 @@ footer iframe{
     gap: 10px;
 }
 /* main productos */
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,auto);
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 5px;
+    grid-template-areas:
+    "aceroblanco"
+    "aceroquirurgico"
+    "plata"
+    "oro" ;
+}
 .submenu{
     display: flex;
     margin: 50px;
