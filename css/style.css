@@ -9,8 +9,9 @@ html{
     box-sizing: border-box;
 }
 
-
-
+a:hover{
+    color: brown;
+}
 header{
     background-color: #FAF7CD;
     display: flex;
@@ -151,14 +152,21 @@ background-color: antiquewhite;
 
 
 /* MAIN CONTACTO*/
-.formulario{
+
+main section h3{
+    font-size: 25px;
+    text-decoration: underline;
+    }
+.medida{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+
 }
-main section form div{
+.medida div img{
     margin: 10px;
     padding: 10px;
 }
@@ -167,11 +175,22 @@ main section form div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    padding: 10px;
+
 }
+.form div{
+    margin: 10px;
+    padding: 10px;
+}
+
 .card{
     justify-content: center;
     align-items: center;
+    background-color: #FAF7CD;
+    border: none;
 }
+
 
 /* footer contacto */
 footer iframe{
