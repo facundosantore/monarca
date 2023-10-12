@@ -44,32 +44,18 @@ header nav ul li a{
 
 } */
 
-main{
+/* main{
     background-color: #FAF7CD;
     padding: 10px;
 }
 
-
-.aceroblanco{
-    position: relative;
-    grid-area: aceroblanco;
+.titulo-main{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+    font-style: initial;
 }
-
-.aceroquirurgico{
-    position: relative;
-    grid-area: aceroquirurgico;
-}
-
-.plata{
-    position: relative;
-    grid-area: plata;
-}
-
-.oro{
-    position: relative;
-    grid-area: oro;
-}
-
 .contenedor2{
     display: grid;
     justify-items: center;
@@ -125,17 +111,11 @@ main{
     padding: 10px;
     border-bottom: solid 5% black;
     
-} 
+}  */
 
-.titulo-main{
-    text-align: center;
-    padding: 10px;
-    color: black;
-    font-size: 40px;
-    font-style: initial;
-}
 
-footer{
+
+/* footer{
 background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -149,7 +129,7 @@ h3{
     color: black;
 font-size: 20px;
 font-style: initial;
-}
+} */
 
 /* MAIN CONTACTO*/
 
@@ -214,6 +194,25 @@ footer iframe{
     "aceroquirurgico"
     "plata"
     "oro" ;
+}
+.aceroblanco{
+    position: relative;
+    grid-area: aceroblanco;
+}
+
+.aceroquirurgico{
+    position: relative;
+    grid-area: aceroquirurgico;
+}
+
+.plata{
+    position: relative;
+    grid-area: plata;
+}
+
+.oro{
+    position: relative;
+    grid-area: oro;
 }
 .contenedor div{
     height: auto;
