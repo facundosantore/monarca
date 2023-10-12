@@ -1,0 +1,45 @@
+
+/*main contacto*/
+main{
+    section{
+        h3{
+            font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+        }
+    .medida{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    div{
+        img{
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+    }
+    .form{
+        h2{
+            text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+    font-style: initial
+        }
+        div{
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+    .card{
+        justify-content: center;
+    align-items: center;
+    background-color: #FAF7CD;
+    border: none;
+    }
+    }
+}
+
