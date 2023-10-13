@@ -92,18 +92,29 @@ main .contenedor2 article p {
 /*footer index*/
 footer {
   background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   padding: 20px;
 }
-footer div a img {
+footer .iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+footer .iconos a {
   width: 50px;
   height: 50px;
 }
+footer .telefono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
 footer .telefono p {
-  font-size: 1rem;
+  margin-bottom: 0px;
 }
 footer h3 {
   text-align: center;
@@ -131,14 +142,22 @@ main section .medida div img {
   margin: 10px;
   padding: 10px;
 }
-main section .form h2 {
+main section .formu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+main section .formu h2 {
   text-align: center;
   padding: 10px;
   color: black;
   font-size: 40px;
   font-style: initial;
 }
-main section .form div {
+main section .formu div {
   margin: 10px;
   padding: 10px;
 }
@@ -148,16 +167,50 @@ main section .card {
   background-color: #FAF7CD;
   border: none;
 }
-
-/*footer contacto*/
-footer div .telefono {
-  display: flex;
-  gap: 10px;
-}
-footer iframe {
+main .mapa iframe {
   width: 100%;
   height: 100%;
   padding: 20px;
+}
+main .mapa .direccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .mapa .direccion p {
+  margin-bottom: 0;
+}
+
+/*footer contacto*/
+footer {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+footer .iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+footer .telefono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+footer .telefono p {
+  margin-bottom: 0px;
+}
+footer h3 {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  font-style: initial;
 }
 
 /*# sourceMappingURL=main.css.map */

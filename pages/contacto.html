@@ -38,16 +38,17 @@
     </header>
 
     <main>
-            
+
         <section>
-            <h3>¿Cómo mido los anillos para saber qué talle soy?</h3>   
-            <div class="medida"> 
-                <p>Con una regla puedes medir el diámetro del anillo. Dará una medida en mm: 16-17-18-19-20, etc. de ahí podrás saber las medidas tomando de referencia el siguiente cuadro.</p>
+            <h3>¿Cómo mido los anillos para saber qué talle soy?</h3>
+            <div class="medida">
+                <p>Con una regla puedes medir el diámetro del anillo. Dará una medida en mm: 16-17-18-19-20, etc. de ahí
+                    podrás saber las medidas tomando de referencia el siguiente cuadro.</p>
                 <img src="./../assets/medidaanillo.png" alt="medidas">
             </div>
         </section>
-        <section class="form">
-            
+        <section class="formu">
+
             <h2>Contacto</h2>
 
             <div class="container my-5 input">
@@ -70,7 +71,7 @@
                                         <label for="mensaje">Mensaje</label> <textarea class="form-control" id="mensaje"
                                             rows="5" placeholder="Mensaje"></textarea>
                                     </div>
-                                    <div>
+                                    <div class="botones">
                                         <label class="form-label lead">Elija su talle</label>
                                         <div class="btn-group" data-toggle="buttons">
                                             <label class="btn btn-warning">
@@ -90,9 +91,10 @@
                                                 18
                                             </label>
                                         </div>
-                                    </div>
-                                    <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-warning">Enviar!</button>
+
+                                        <div class="d-grid gap-2 envio">
+                                            <button type="button" class="btn btn-warning">Enviar!</button>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -102,11 +104,25 @@
             </div>
 
         </section>
+        <section class="mapa">
 
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.0436436164642!2d-60.64326918565734!3d-32.9533106802834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1694013747695!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="direccion">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg>
+
+                <p>9 De Julio 1309 - Rosario</p>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <div>
+        <div class="iconos">
             <a href="https://instagram.com/monarca.bijouterie?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
                 <img src="./../assets/instagram-1-svgrepo-com.svg" alt="Logo instagram" width="50" height="50"></a>
 
@@ -120,11 +136,6 @@
             </svg>
             <p>+54 3412284618</p>
         </div>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.0436436164642!2d-60.64326918565734!3d-32.9533106802834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1694013747695!5m2!1ses!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
         <h3>
             <p>© Copyright Monarca Bijouterie - 2023</p>
         </h3>

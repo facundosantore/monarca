@@ -152,7 +152,7 @@ font-style: initial;
     margin: 10px;
     padding: 10px;
 }
-.form{
+.formu{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ font-style: initial;
     padding: 10px;
 
 }
-.form div{
+.formu div{
     margin: 10px;
     padding: 10px;
 }

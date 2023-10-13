@@ -1,33 +1,35 @@
 /*footer index*/
 footer {
     background-color: antiquewhite;
+    padding: 20px;
+    .iconos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        margin-bottom: 0px;
+        a{
+            width: 50px;
+            height: 50px;
+        }
+    }
+.telefono{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 20px;
-
-    div {
-        a {
-            img {
-                width: 50px;
-                height: 50px;
-            }
-        }
+    padding: 5px;
+    gap: 10px;
+    p{
+        margin-bottom: 0px;
     }
-
-    .telefono {
-        p {
-            font-size: 1rem;
-        }
     }
-
-    h3 {
+    h3{
         text-align: center;
-        padding: 20px;
-        color: black;
-        font-size: 20px;
-        font-style: initial;
+    padding: 20px;
+    color: black;
+font-size: 20px;
+font-style: initial;
     }
-
 }
+
