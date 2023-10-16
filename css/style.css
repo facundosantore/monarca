@@ -185,7 +185,7 @@ font-style: initial;
     gap: 10px; */
 
 /* main productos */
-.contenedor{
+/* .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,1fr);
@@ -235,8 +235,8 @@ font-style: initial;
     -webkit-text-stroke: 2px black;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-}
+    position: absolute;} */
+
 .submenu{
     display: flex;
     margin: 50px;
@@ -284,9 +284,9 @@ main section img{
 }
 
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){ */
     /* header */
-    header{
+    /* header{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -317,11 +317,11 @@ main section img{
     height: auto;
     width: auto;
     object-fit: cover;
-}
+} */
 
 
 /* main productos */
-.contenedor{
+/* .contenedor{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 50vh);
     grid-template-areas:
@@ -329,11 +329,11 @@ main section img{
     "plata plata aceroblanco oro";
     column-gap: 1px;
     row-gap: 1px;
-}
+} */
 
 /* main cuidado */
 
-.articulo-cuidado{
+/* .articulo-cuidado{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -347,22 +347,22 @@ main section img{
     font-size: 25px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 /* footer contacto */
-footer iframe{
+/* footer iframe{
     width: 400px;
     height: 400px;
-}
+} */
 
 /*main quienes*/
 
-main section img{
+/* main section img{
     width: 600px;
     height: 550px;
-}
+} */
 
-}
+/* }
 @media screen and (min-width: 1024px){
     header{
     padding: 100px;
@@ -382,7 +382,7 @@ main section img{
 
 }
 .contenedor2{
-grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr) ;
     grid-template-areas:
     "card1 card2 card3"
@@ -392,7 +392,7 @@ grid-template-columns:repeat(3, 1fr);
 
 
 /* main productos */
-    .contenedor{
+    /* .contenedor{
     margin: 2rem 8rem 8rem 8rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 30vh 30vh 40vh;
@@ -401,18 +401,18 @@ grid-template-columns:repeat(3, 1fr);
     "plata plata oro oro"
     " aceroquirurgico aceroquirurgico aceroblanco aceroblanco";
     column-gap: 1px;
-    row-gap: 1px;
-    }
+    row-gap: 1px;} */
+    
     /* main cuidado */
 
-    .articulo-cuidado{
+    /* .articulo-cuidado{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px;
         padding: 50px;
-    }
-    .img-fluid{
+    } */
+    /* .img-fluid{
         width: 600px;
         height: 700px;
     }
@@ -420,7 +420,4 @@ grid-template-columns:repeat(3, 1fr);
         padding: 10px;
         font-size: 25px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-
-}
-}
+        font-family: Arial, Helvetica, sans-serif;} */

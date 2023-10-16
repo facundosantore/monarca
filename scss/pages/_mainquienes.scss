@@ -1,0 +1,19 @@
+/*main quienes*/
+main{
+    .informacion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .info2{
+                padding: 10px;
+                font-size: 20px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            img{
+                width: 300px;
+                height: 250px;
+            }
+    }
+}

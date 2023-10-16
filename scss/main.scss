@@ -2,12 +2,15 @@
 
 /*este es un comentario de css*/
 
-@import "header";
+@import "components/header";
+@import "components/footer";
 
-@import "mainindex";
 
-@import "footer";
+@import "pages/mainindex";
+@import "pages/maincontacto";
+@import "pages/mainproductos";
+@import "pages/mainquienes";
+@import "pages/maincuidado";
 
-@import "maincontacto";
 
-@import "footercontacto";
+@import "utilities/media-queries";

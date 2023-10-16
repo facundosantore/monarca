@@ -1,0 +1,70 @@
+/*main productos*/
+
+main {
+    .submenu {
+        text-align: center;
+        margin: 50px;
+        font-size: 25px;
+        font-variant: small-caps;
+        text-decoration: none;
+        list-style: none;
+        gap: 20px;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin: 1rem 3rem 3rem 3rem;
+        gap: 5px;
+        grid-template-areas:
+            "aceroblanco"
+            "aceroquirurgico"
+            "plata"
+            "oro";
+
+        div {
+            height: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+                p {
+                    bottom: 15px;
+                    left: 15px;
+                    color: white;
+                    background-position: center;
+                    font-size: 30px;
+                    font-style: initial;
+                    -webkit-text-stroke: 2px black;
+                    font-weight: 900;
+                    font-family: Arial, Helvetica, sans-serif;
+                    position: absolute;
+                }
+            
+        }
+
+        .aceroblanco {
+            position: relative;
+            grid-area: aceroblanco;
+        }
+
+        .aceroquirurgico {
+            position: relative;
+            grid-area: aceroquirurgico;
+        }
+
+        .plata {
+            position: relative;
+            grid-area: plata;
+        }
+
+        .oro {
+            position: relative;
+            grid-area: oro;
+        }
+    }
+
+    
+}

@@ -1,0 +1,21 @@
+/*main cuidado*/
+
+main{
+    .articulo-cuidado{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    .info{
+        padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .img-fluid{
+        width: 300px;
+    height: 450px;
+    }
+
+    }
+}
