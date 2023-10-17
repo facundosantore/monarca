@@ -1,6 +1,6 @@
 /*footer index*/
 footer {
-    background-color: antiquewhite;
+    background-color: nth($list: $colores, $n:4 );
     padding: 20px;
     .iconos{
         display: flex;

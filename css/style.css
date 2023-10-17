@@ -9,9 +9,9 @@ html{
     box-sizing: border-box;
 }
 
-a:hover{
+/* a:hover{
     color: brown;
-}
+} */
 /* header{
     background-color: #FAF7CD;
     display: flex;
@@ -237,7 +237,7 @@ font-style: initial;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;} */
 
-.submenu{
+/* .submenu{
     display: flex;
     margin: 50px;
     flex-direction: column;
@@ -245,10 +245,10 @@ font-style: initial;
     font-variant: small-caps;
     text-decoration: none;
     list-style: none;
-    gap: 20px;
-}
+    gap: 20px;} */
+
 /*Main quienes*/
-.informacion{
+/* .informacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,11 +263,11 @@ font-style: initial;
 main section img{
     width: 300px;
     height: 250px;
-}
+} */
 
 /* main cuidado */
 
-.articulo-cuidado{
+/* .articulo-cuidado{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,7 +281,7 @@ main section img{
     font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 
 /* @media screen and (min-width: 768px){ */

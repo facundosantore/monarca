@@ -77,6 +77,16 @@
 
     /*main contacto*/
     main {
+        section{
+        .medida{
+            p{font-size: 20px;
+            }
+            img{width: 400px;
+            height: 400px;}
+        }
+        
+        
+        
         .mapa {
             iframe {
                 width: 400px;
@@ -84,6 +94,7 @@
                 padding: 20px;
             }
         }
+    }
     }
 
     /*main quienes*/
@@ -176,6 +187,13 @@
 
     /*main contacto*/
     main {
+        section{
+            .medida{
+                p{font-size: 22px;
+                }
+                img{width: 650px;
+                height: 650px;}
+            }
         .mapa {
             iframe {
                 width: 500px;
@@ -183,5 +201,6 @@
                 padding: 20px;
             }
         }
+    }
     }
 }
