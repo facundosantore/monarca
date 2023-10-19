@@ -1,6 +1,10 @@
 /*footer index*/
 footer {
-    background-color: nth($list: $colores, $n:4 );
+    // background-color: nth($list: $colores, $n:4 );
+    background-color: #faebd7;
+background-image: linear-gradient(179deg, #faebd7 66%, #faf7cd 84%);
+
+
     padding: 20px;
     .iconos{
         @include flex ( row, center, center);
