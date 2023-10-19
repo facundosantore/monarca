@@ -30,11 +30,7 @@ main {
         row-gap: 20px;
 
         article {
-
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            flex-direction: column;
+            @include flex (column, center, center);
             padding: 40px;
             border: outset 1px black;
             height: auto;
@@ -68,10 +64,6 @@ main {
                 height: 100%;
                 object-fit: cover;
             }
-
-            // div {
-
-            // }
 
             p {
                 font-size: 20px;

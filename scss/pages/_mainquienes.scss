@@ -1,10 +1,7 @@
 /*main quienes*/
 main{
     .informacion{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        @include flex ( column, center, center);
             .info2{
                 padding: 10px;
                 font-size: 20px;

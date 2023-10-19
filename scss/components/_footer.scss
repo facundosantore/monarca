@@ -3,9 +3,7 @@ footer {
     background-color: nth($list: $colores, $n:4 );
     padding: 20px;
     .iconos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex ( row, center, center);
         gap: 15px;
         padding: 10px;
         margin-bottom: 0px;
@@ -15,9 +13,7 @@ footer {
         }
     }
 .telefono{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex (row, center, center);
     padding: 5px;
     gap: 10px;
     p{

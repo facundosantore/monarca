@@ -8,10 +8,7 @@ main {
         }
 
         .medida {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex ( column, center, center);
             
             p{
                 font-size: 18px;
@@ -27,11 +24,7 @@ main {
         }
     }
         .formu {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
+            @include flex ( column, center, center);
 
             h2 {
                 text-align: center;
@@ -57,9 +50,8 @@ main {
         }
     
 
-    .mapa {display: flex;
-        justify-content: center;
-        align-items: center;
+    .mapa {
+        @include flex ( row, center, center);
         iframe {
             
             width: 100%;
@@ -68,9 +60,7 @@ main {
         }
 }
         .direccion {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex (row, center, center);
             gap: 10px;
 
             p {
