@@ -1,7 +1,7 @@
 /*main productos*/
 
 main {
-    .submenu {
+    h1 {
         text-align: center;
         margin: 50px;
         font-size: 25px;
@@ -16,6 +16,9 @@ main {
         grid-template-rows: repeat(4, 1fr);
         margin: 1rem 3rem 3rem 3rem;
         gap: 5px;
+        box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
+            -webkit-box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
+            -moz-box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
         grid-template-areas:
             "aceroblanco"
             "aceroquirurgico"
@@ -23,7 +26,7 @@ main {
             "oro";
 
         div {
-            height: auto;
+            height: 100%;
 
             img {
                 width: 100%;

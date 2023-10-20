@@ -18,7 +18,6 @@ header {
   justify-content: space-between;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #faf7cd;
   background-image: linear-gradient(179deg, #faf7cd 84%, #faebd7 92%);
 }
 header .logo {
@@ -48,7 +47,7 @@ main {
   background-color: #FAF7CD;
   padding: 10px;
 }
-main h2 {
+main h1 {
   text-align: center;
   padding: 10px;
   color: black;
@@ -72,6 +71,8 @@ main .contenedor2 article {
   justify-content: center;
   padding: 40px;
   border: outset 1px black;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   height: auto;
   box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
   -webkit-box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
@@ -108,7 +109,7 @@ main .contenedor2 article p {
 }
 
 /*main contacto*/
-main section h3 {
+main section h2 {
   font-size: 25px;
   text-decoration: underline;
   text-align: center;
@@ -129,57 +130,60 @@ main section .medida img {
   margin: 10px;
   padding: 10px;
 }
-
-.formu {
+main .formu {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.formu h2 {
+main .formu h1 {
   text-align: center;
   padding: 10px;
   color: black;
   font-size: 40px;
   font-style: initial;
 }
-.formu .input div {
+main .formu .input div {
   margin: 10px;
   padding: 10px;
 }
-
-.card {
+main .card {
   justify-content: center;
   align-items: center;
   background-color: #FAF7CD;
   border: none;
 }
-
-.mapa {
+main .form-label {
+  display: block;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: underline;
+}
+main .botones {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.mapa iframe {
+main section .mapa iframe {
   width: 100%;
   height: 100%;
   padding: 20px;
 }
-
-.direccion {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+main section .direccion {
   gap: 10px;
 }
-.direccion p {
+main section .direccion p {
   margin-bottom: 0;
 }
 
 /*main productos*/
-main .submenu {
+main h1 {
   text-align: center;
   margin: 50px;
   font-size: 25px;
@@ -194,10 +198,13 @@ main .contenedor {
   grid-template-rows: repeat(4, 1fr);
   margin: 1rem 3rem 3rem 3rem;
   gap: 5px;
+  box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
+  -webkit-box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
+  -moz-box-shadow: -1px -1px 75px 44px rgba(234, 202, 159, 0.6);
   grid-template-areas: "aceroblanco" "aceroquirurgico" "plata" "oro";
 }
 main .contenedor div {
-  height: auto;
+  height: 100%;
 }
 main .contenedor div img {
   width: 100%;
@@ -302,7 +309,7 @@ footer .telefono {
 footer .telefono p {
   margin-bottom: 0px;
 }
-footer h3 {
+footer h2 {
   text-align: center;
   padding: 20px;
   color: black;
@@ -371,7 +378,7 @@ footer h3 {
     width: 400px;
     height: 400px;
   }
-  main section .mapa iframe {
+  main .mapa iframe {
     width: 400px;
     height: 400px;
     padding: 20px;
