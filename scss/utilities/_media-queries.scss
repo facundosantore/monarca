@@ -97,10 +97,11 @@
     /*main quienes*/
 
     main {
-        section {
+        .informacion{
             img {
                 width: 600px;
                 height: 550px;
+                border-radius: 10px;
             }
         }
     }
@@ -199,5 +200,14 @@
             }
         }
     }
+    }
+    main {
+        .informacion{
+            img {
+                width: 800px;
+                height: 550px;
+                
+            }
+        }
     }
 }

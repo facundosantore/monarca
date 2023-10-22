@@ -57,42 +57,46 @@
 
         <h1 class="titulo-main">Productos Destacados</h1>
         <section class="contenedor2">
-            <article class="card1">
+            <article class="card1"data-aos="fade-in">
                 <img src="./assets/pulsera.jpg" alt="pulsera" />
                 <div class="card-text">
                     <p>Pulsera de Acero Quirurgico con piedras y corazón</p>
                 </div>
             </article>
 
-            <article class="card2">
+            <article class="card2" data-aos="flip-down">
                 <img src="./assets/anillo.jpg" alt="anillo" />
                 <div class="card-text">
                     <p>Anillo Frutillita de plata y oro</p>
                 </div>
             </article>
 
-            <article class="card3">
+            <article class="card3" data-aos="zoom-in-down">
                 <img src="./assets/cadena.jpg" alt="cadena" />
                 <div class="card-text">
                     <p>Cadena plata 925 con dije bulgari de plata y oro</p>
                 </div>
             </article>
 
-            <article class="card4">
+            <article class="card4" data-aos="fade-up"
+            data-aos-duration="3000">
                 <img src="./assets/anillo2.jpg" alt="anillo2" />
                 <div class="card-text">
                     <p>Anillo Sina corazón</p>
                 </div>
             </article>
 
-            <article class="card5">
+            <article class="card5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <img src="./assets/argolla.jpg" alt="argolla" />
                 <div class="card-text">
                     <p>Argola True love brillante 3,5cm</p>
                 </div>
             </article>
 
-            <article class="card6">
+            <article class="card6" data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
                 <img src="./assets/conjunto.jpg" alt="conjunto" />
                 <div class="card-text">
                     <p>Conjunto Sugy 45cm</p>
@@ -122,6 +126,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
 </body>
 
 </html>
