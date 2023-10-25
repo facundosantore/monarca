@@ -16,6 +16,14 @@
 
     /*main index*/
     main {
+        section{
+            .mobile{
+                display: none;
+            }
+            .tablet{
+                display: contents;
+            }
+        }
         .contenedor2 {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, 1fr);

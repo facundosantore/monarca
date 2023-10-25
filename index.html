@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mujeres que liberan mujeres ✨Ventas por mayor y menor! Rosario, Santa Fe: 9 de julio 1309. Monarca Bijouterie.">
-    <meta name="keywords" content="MONARCA, DESTACADOS, ANILLO, PULSERA, CADENA, CONJUNTO, ARGOLLA">  
+    <meta name="description"
+        content="Mujeres que liberan mujeres ✨Ventas por mayor y menor! Rosario, Santa Fe: 9 de julio 1309. Monarca Bijouterie.">
+    <meta name="keywords" content="MONARCA, DESTACADOS, ANILLO, PULSERA, CADENA, CONJUNTO, ARGOLLA">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -33,7 +34,27 @@
 
     <main>
         <section>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExample" class="carousel slide mobile">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/slide3.gif" class="d-block w-100" alt="carousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/slide4.gif" class="d-block w-100" alt="carousel">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </section>
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide tablet" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./assets/slide-1695126391544-2245516751-8d6628496af69bfe77fc486c682f688e1695126401.gif"
@@ -60,7 +81,7 @@
 
         <h1 class="titulo-main">Productos Destacados</h1>
         <section class="contenedor2">
-            <article class="card1"data-aos="fade-in">
+            <article class="card1" data-aos="fade-in">
                 <img src="./assets/pulsera.jpg" alt="pulsera" />
                 <div class="card-text">
                     <p>Pulsera de Acero Quirurgico con piedras y corazón</p>
@@ -84,8 +105,7 @@
                 </div>
             </article>
 
-            <article class="card4" data-aos="fade-up"
-            data-aos-duration="3000">
+            <article class="card4" data-aos="fade-up" data-aos-duration="3000">
                 <img src="./assets/anillo2.jpg" alt="anillo2" />
                 <div class="card-text">
                     <p>Anillo Sina corazón</p>
@@ -93,9 +113,7 @@
                 </div>
             </article>
 
-            <article class="card5" data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+            <article class="card5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./assets/argolla.jpg" alt="argolla" />
                 <div class="card-text">
                     <p>Argolla True love brillante 3,5cm</p>
@@ -134,10 +152,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
         AOS.init();
-        </script>
+    </script>
 </body>
 
 </html>
