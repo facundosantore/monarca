@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Comprá productos de Joyas por internet. Tenemos Acero Quirurgico, plata y más. Hacé tu pedido y pagalo online. Monarca Bijouterie.">
+    <meta name="description"
+        content="Comprá productos de Joyas por internet. Tenemos Acero Quirurgico, plata y más. Hacé tu pedido y pagalo online. Monarca Bijouterie.">
     <meta name="keywords" content="PRODUCTOS, PLATA 925, ACERO QUIRURGICO, ACERO BLANCO, ORO">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital,wght@1,100;1,200;1,300&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./../css/main.css">
     <title>Productos - Monarca Bijouterie</title>
     <link rel="shortcut icon" href="../assets/favicon-32x32.png" type="image/x-icon">
 </head>
 
-<body>
+<body id="top">
     <header>
         <img src="./../assets/monarca.png" alt="monarca" class="logo">
         <nav>
@@ -39,41 +43,330 @@
 
     <main>
 
-            <h1>Productos Monarca</h1>
+        <h1>Productos Monarca</h1>
 
         <section>
             <section class="contenedor">
                 <div class="aceroblanco">
-                    <img src="./../assets/aceroblanco.webp" alt="" />
+                    <a href="#blanco">
+                    <img src="./../assets/aceroblanco.webp" alt="blanc"></a>
+
                     <div class="texto-uno">
                         <h2>Acero Blanco</h2>
-                        <p>Aleación de acero que contiene níquel, lo que le da un acabado plateado y brillante similar al de la plata.</p>
+                        <p>Aleación de acero que contiene níquel, lo que le da un acabado plateado y brillante similar
+                            al de la plata.</p>
                     </div>
+                    </a>
                 </div>
                 <div class="aceroquirurgico">
-                    <img src="./../assets/aceroquirurgico.jpg" alt="" />
+                    <img src="./../assets/aceroquirurgico.jpg" alt="quirurgico" />
                     <div class="texto-uno">
                         <h2>Acero Quirurgico</h2>
-                        <p>Tipo de acero inoxidable, es hipoalergénico y no provoca reacciones alérgicas en la mayoría de las personas.</p>
-                    </div>
+                        <p>Tipo de acero inoxidable, es hipoalergénico y no provoca reacciones alérgicas en la mayoría
+                            de las personas.</p>
+                    </div></a>
                 </div>
                 <div class="plata">
-                    <img src="./../assets/plata.webp" alt="" />
+                    <img src="./../assets/plata.webp" alt="plata" />
                     <div class="texto-uno">
                         <h2>Plata 925</h2>
-                        <p>Metal precioso que se utiliza ampliamente en la fabricación de joyas debido a su brillo y su capacidad para resistir la corrosión.</p>
-                    </div>
+                        <p>Metal precioso que se utiliza ampliamente en la fabricación de joyas debido a su brillo y su
+                            capacidad para resistir la corrosión.</p>
+                    </div></a>
                 </div>
                 <div class="oro">
-                    <img src="./../assets/oro2.jpg" alt="" />
+                    <img src="./../assets/oro2.jpg" alt="oro" />
                     <div class="texto-uno">
                         <h2>Oro</h2>
-                        <p>Metal precioso altamente valorado por su belleza, durabilidad y resistencia a la corrosión.</p>
-                    </div>
+                        <p>Metal precioso altamente valorado por su belleza, durabilidad y resistencia a la corrosión.
+                        </p>
+                    </div></a>
                 </div>
             </section>
 
         </section>
+
+        <h3>Accesorios Acero Blanco</h3>
+        
+        <section class="contenedor2" id="blanco">
+            <article class="card1" data-aos="fade-in">
+                <img src="./../assets/blancoanillo lyand star.webp" alt="anilloblanco" />
+                <div class="card-text">
+                    <p>Anillo Lyand Star</p>
+                    <p>$ 2300</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card2" data-aos="flip-down">
+                <img src="./../assets/blancoargollas dina suen.webp" alt="argollablanca" />
+                <div class="card-text">
+                    <p>Argollas Dina Suen</p>
+                    <p>$ 3000/p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card3" data-aos="zoom-in-down">
+                <img src="./../assets/blancocadena clapton.webp" alt="cadenablanca" />
+                <div class="card-text">
+                    <p>Cadena Clapton</p>
+                    <p>$ 4000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card4" data-aos="fade-up" data-aos-duration="3000">
+
+                <img src="./../assets/blancoconjunto carhol.webp" alt="conjuntoblanca" />
+                <div class="card-text">
+                    <p>Conjunto Carhol</p>
+                    <p>$ 3000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./../assets/blancoconjunto delfin.webp" alt="argolla" />
+                <div class="card-text">
+                    <p>Conjunto Delfin</p>
+                    <p>$ 3200</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card6" data-aos="flip-right">
+                <img src="./../assets/blancotobillera tifanny angel.webp" alt="conjunto" />
+                <div class="card-text">
+                    <p>Tobillera Tifanny Angel</p>
+                    <p>$ 2900</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+        </section>
+
+        <h3>Accesorios Acero Quirurgico</h3>
+        <section class="contenedor2" id="quirurgico">
+            <article class="card1" data-aos="fade-in">
+                <img src="./../assets/pulsera.jpg" alt="pulsera" />
+                <div class="card-text">
+                    <p>Pulsera de Acero Quirurgico con piedras y corazón</p>
+                    <p>$2300</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card2" data-aos="flip-down">
+                <img src="./../assets/anillo.jpg" alt="anillo" />
+                <div class="card-text">
+                    <p>Anillo Frutillita de plata y oro</p>
+                    <p>$3800</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card3" data-aos="zoom-in-down">
+                <img src="./../assets/cadena.jpg" alt="cadena" />
+                <div class="card-text">
+                    <p>Cadena plata 925 con dije bulgari de plata y oro</p>
+                    <p>$5600</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card4" data-aos="fade-up" data-aos-duration="3000">
+
+                <img src="./../assets/anillo2.jpg" alt="anillo2" />
+                <div class="card-text">
+                    <p>Anillo Sina corazón</p>
+                    <p>$3000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./../assets/argolla.jpg" alt="argolla" />
+                <div class="card-text">
+                    <p>Argolla True love brillante 3,5cm</p>
+                    <p>$2600</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card6" data-aos="flip-right">
+                <img src="./../assets/conjunto.jpg" alt="conjunto" />
+                <div class="card-text">
+                    <p>Conjunto Sugy 45cm</p>
+                    <p>$ 4500</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+        </section>
+
+        <h3>Accesorios Plata 925</h3>
+
+        <section class="contenedor2" id="plata">
+            <article class="card1" data-aos="fade-in">
+                <img src="./../assets/anillo leilani.png" alt="anillosplata" />
+                <div class="card-text">
+                    <p>Anillo Leilani</p>
+                    <p>$ 4300</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card2" data-aos="flip-down">
+                <img src="./../assets/conjunto haby Mamá.png" alt="conjuntosplata" />
+                <div class="card-text">
+                    <p>Conjunto Haby Mamá</p>
+                    <p>$ 12000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card3" data-aos="zoom-in-down">
+                <img src="./../assets/conjunto khissa colour.png" alt="conjuntoplata" />
+                <div class="card-text">
+                    <p>Conjunto Khissa Colour</p>
+                    <p>$ 11500</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card4" data-aos="fade-up" data-aos-duration="3000">
+                <img src="./../assets/argolla freedom.png" alt="argollasplata" />
+                <div class="card-text">
+                    <p>Argolla Freedom</p>
+                    <p>$ 5500</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./../assets/anillo nudo knotan.png" alt="anilloplata" />
+                <div class="card-text">
+                    <p>Anillo Nudo Knotan</p>
+                    <p>$ 7400</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card6" data-aos="flip-right">
+                <img src="./../assets/argollas frida.png" alt="argollaplata" />
+                <div class="card-text">
+                    <p>Argollas Frida</p>
+                    <p>$ 8500</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+        </section>
+
+        <h3>Accesorios Oro</h3>
+
+        <section class="contenedor2" id="oro">
+            <article class="card1" data-aos="fade-in">
+                <img src="./../assets/pulsera panther.webp" alt="pulseraoro" />
+                <div class="card-text">
+                    <p>Pulsera Panther</p>
+                    <p>$ 245000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card2" data-aos="flip-down">
+                <img src="./../assets/anillo solitario.webp" alt="anillo" />
+                <div class="card-text">
+                    <p>Anillo Solitario</p>
+                    <p>$ 85000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card3" data-aos="zoom-in-down">
+                <img src="./../assets/argollas cubanas.webp" alt="argollaoro" />
+                <div class="card-text">
+                    <p>Argollas cubanas</p>
+                    <p>$ 130000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card4" data-aos="fade-up" data-aos-duration="3000">
+                <img src="./../assets/cadena eslabón 3x1.webp" alt="eslabon" />
+                <div class="card-text">
+                    <p>Cadena Eslabón 3x1</p>
+                    <p>$ 375000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./../assets/anillo medio sin fin.webp" alt="anillo" />
+                <div class="card-text">
+                    <p>Anillo Medio Sin Fin</p>
+                    <p>$ 90000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+
+            <article class="card6" data-aos="flip-right">
+                <img src="./../assets/dije cruz.webp" alt="conjunto" />
+                <div class="card-text">
+                    <p>Dije Cruz</p>
+                    <p>$ 43000</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                    <button class="btn btn-warning btn-md ">Lo quiero!</button>
+                </div>
+                </div>
+            </article>
+        </section>
+
 
     </main>
     <footer>
@@ -89,11 +382,20 @@
                     d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
             </svg>
             <p>+54 3412284618</p>
+            <a href="#top">Regresar al principio</a>
+
         </div>
         <h3>© Copyright Monarca Bijouterie - 2023</h3>
-        
-    </footer>
 
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
