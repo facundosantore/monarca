@@ -16,14 +16,16 @@
 
     /*main index*/
     main {
-        section{
-            .mobile{
+        section {
+            .mobile {
                 display: none;
             }
-            .tablet{
+
+            .tablet {
                 display: contents;
             }
         }
+
         .contenedor2 {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -33,7 +35,7 @@
                 "card5 card6";
 
             article {
-                
+
                 height: 500px;
                 width: 300px;
 
@@ -57,18 +59,20 @@
                 "plata plata aceroblanco oro";
             column-gap: 1px;
             row-gap: 1px;
-            div{
+
+            div {
                 height: 100%;
-            
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 5px;
-                
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+
+                }
             }
         }
-    } 
+
         .contenedor2 {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -78,7 +82,7 @@
                 "card5 card6";
 
             article {
-                
+
                 height: 600px;
                 width: 300px;
 
@@ -99,10 +103,7 @@
             align-items: flex-start;
 
             .info {
-                padding: 10px;
                 font-size: 25px;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
             }
 
             .img-fluid {
@@ -114,15 +115,19 @@
 
     /*main contacto*/
     main {
-        section{
-        .medida{
-            p{font-size: 20px;
+        section {
+            .medida {
+                p {
+                    font-size: 20px;
+                }
+
+                .talle {
+                    width: 400px;
+                    height: 400px;
+                }
             }
-            img{width: 400px;
-            height: 400px;}
         }
-        }
-        
+
         .mapa {
             iframe {
                 width: 400px;
@@ -130,17 +135,16 @@
                 padding: 20px;
             }
         }
-    
+
     }
 
     /*main quienes*/
 
     main {
-        .informacion{
+        .informacion {
             img {
                 width: 600px;
                 height: 550px;
-                border-radius: 10px;
             }
         }
     }
@@ -194,8 +198,8 @@
                 " aceroquirurgico aceroquirurgico aceroblanco aceroblanco";
             column-gap: 1px;
             row-gap: 1px;
-                }
-        
+        }
+
         .contenedor2 {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
@@ -204,10 +208,10 @@
                 "card4 card5 card6";
         }
     }
-}
 
-    /*main cuidado*/
-    main{  
+
+/*main cuidado*/
+main {
     .articulo-cuidado {
         display: flex;
         flex-direction: column;
@@ -231,15 +235,20 @@
     }
 }
 
-    /*main contacto*/
-    main {
-        section{
-            .medida{
-                p{font-size: 22px;
-                }
-                img{width: 650px;
-                height: 650px;}
+/*main contacto*/
+main {
+    section {
+        .medida {
+            p {
+                font-size: 22px;
             }
+
+            img {
+                width: 650px;
+                height: 650px;
+            }
+        }
+
         .mapa {
             iframe {
                 width: 500px;
@@ -248,13 +257,15 @@
             }
         }
     }
-    }
-    main {
-        .informacion{
-            img {
-                width: 800px;
-                height: 550px;
-                
-            }
+}
+
+main {
+    .informacion {
+        img {
+            width: 800px;
+            height: 550px;
+
         }
     }
+}
+}

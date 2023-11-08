@@ -1,5 +1,6 @@
 html {
-  font-size: 62, 5%; /* transforma el rem de 16px a 10px*/
+  font-size: 62, 5%;
+  /* transforma el rem de 16px a 10px*/
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -125,7 +126,7 @@ main section .medida p {
   text-align: center;
   margin: 50px;
 }
-main section .medida img {
+main section .medida .talle {
   width: 250px;
   height: 250px;
   margin: 10px;
@@ -339,9 +340,6 @@ main .articulo-cuidado {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 main .articulo-cuidado .info {
   padding: 10px;
@@ -464,10 +462,7 @@ footer h3 {
     align-items: flex-start;
   }
   main .articulo-cuidado .info {
-    padding: 10px;
     font-size: 25px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
   }
   main .articulo-cuidado .img-fluid {
     width: 400px;
@@ -477,7 +472,7 @@ footer h3 {
   main section .medida p {
     font-size: 20px;
   }
-  main section .medida img {
+  main section .medida .talle {
     width: 400px;
     height: 400px;
   }
@@ -490,7 +485,6 @@ footer h3 {
   main .informacion img {
     width: 600px;
     height: 550px;
-    border-radius: 10px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -526,43 +520,41 @@ footer h3 {
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "card1 card2 card3" "card4 card5 card6";
   }
-}
-/*main cuidado*/
-main .articulo-cuidado {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-  padding: 50px;
-}
-main .articulo-cuidado .info {
-  padding: 10px;
-  font-size: 25px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-main .articulo-cuidado .img-fluid {
-  width: 600px;
-  height: 700px;
-}
-
-/*main contacto*/
-main section .medida p {
-  font-size: 22px;
-}
-main section .medida img {
-  width: 650px;
-  height: 650px;
-}
-main section .mapa iframe {
-  width: 500px;
-  height: 400px;
-  padding: 20px;
-}
-
-main .informacion img {
-  width: 800px;
-  height: 550px;
+  /*main cuidado*/
+  main .articulo-cuidado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 50px;
+  }
+  main .articulo-cuidado .info {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main .articulo-cuidado .img-fluid {
+    width: 600px;
+    height: 700px;
+  }
+  /*main contacto*/
+  main section .medida p {
+    font-size: 22px;
+  }
+  main section .medida img {
+    width: 650px;
+    height: 650px;
+  }
+  main section .mapa iframe {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+  }
+  main .informacion img {
+    width: 800px;
+    height: 550px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,16 +1,18 @@
 /*main quienes*/
-main{
-    .informacion{
-        @include flex ( column, center, center);
-            .info2{
-                padding: 10px;
-                font-size: 20px;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            img{
-                width: 300px;
-                height: 250px;
-            }
+main {
+    .informacion {
+        @include flex (column, center, center);
+
+        .info2 {
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            width: 300px;
+            height: 250px;
+        }
     }
 }
